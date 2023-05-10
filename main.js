@@ -1,6 +1,21 @@
+// Declare your variable here
+var myGlobal = 10;
 
-const arr1 = [1,2,3]
-let html = ""
+function fun1() {
+  oopsGlobal = 5;
+  console.log(oopsGlobal)
+}
 
-arr1.forEach((value,index) => html += `<li>value: ${value} --- index: ${index}</li>`);
-document.getElementById("app").innerHTML = html
+fun1()
+// Only change code above this line
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+fun2()
