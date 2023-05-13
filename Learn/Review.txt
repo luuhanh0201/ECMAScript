@@ -1,4 +1,5 @@
 SESSION 1
+<<<<<<< HEAD
 
     - var, let, const
     - Value Types, Reference Types
@@ -8,6 +9,14 @@ SESSION 2
     - forEach, for in, for of
 
 
+=======
+    - var, let, const
+    - Value Types, Reference Types
+
+SESSION 2
+    - forEach, for in, for of
+
+>>>>>>> luuhanh
 SESSION 3
     - Array methods: map, filter, reduce, find, findIndex, some, every, includes
     - Destructuring, spread operator, rest parameter
