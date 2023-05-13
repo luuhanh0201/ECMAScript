@@ -1,0 +1,11 @@
+SESSION 1
+    - var, let, const
+    - Value Types, Reference Types
+
+SESSION 2
+    - forEach, for in, for of
+
+SESSION 3
+    - Array methods: map, filter, reduce, find, findIndex, some, every, includes
+    - Destructuring, spread operator, rest parameter
+    - Nullish, optional chaining
