@@ -1,9 +1,0 @@
-@import url('./style.global.css');
-@import url('./animation.css');
-
-p{
-    font-size: 2rem;
-}
-div{
-    background-color: red;
-}
