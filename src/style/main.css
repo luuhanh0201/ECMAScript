@@ -1,10 +1,13 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-.red-color{
-    font-size: 2rem;
-    color: red;
-    background-color: red !important; 
+@font-face {
+    font-family: "roboto";
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+}
+html{
+    font-family: "roboto", sans-serif ;
 }
