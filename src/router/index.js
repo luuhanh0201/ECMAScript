@@ -1,10 +1,10 @@
-import Footer from "./src/components/DefaultLayout/Footer"
 import Navigo from "navigo"
+import Header from "~/components/DefaultLayout/Header"
+import Footer from "~/components/DefaultLayout/Footer"
+import Component from "~/components"
+const router =new Navigo("/",{linksSelector:"a"})
+const render = (content,target) =>{
+    target.innerHTML = Component(Header,content(),Footer)
+}
 
-const router = new Navigo("/")
-
-const HomePage = router.on("/home",()=>{
-    return `<div>12312</div>`
-})
-
-export {HomePage}
+export {render,router}
