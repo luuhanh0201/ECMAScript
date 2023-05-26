@@ -33,7 +33,7 @@ const AboutPage = () => {
     </div>
 
     <div class="pt-8 pb-16">
-        <p class="text-center text-2xl font-bold uppercase pb-2">Learn to F8</p>
+        <p class="text-center text-2xl font-bold uppercase pb-2">study at f8</p>
         <div
             class="overflow-hidden flex items-center justify-center border-solid border-gray-600 border-2 rounded-xl"
             style="height: 600px"
