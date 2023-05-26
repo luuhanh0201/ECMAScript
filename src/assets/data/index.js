@@ -8,7 +8,7 @@ export const projects = [
         detailImage: ["./src/assets/images/meowshop_detail1.jpg", "./src/assets/images/meowshop_detail2.jpg"],
         technology: "ReactJS, Scss",
         github: "https://github.com/luuhanh0201/meowshop",
-        website: "hanhldph.com",
+        website: "https://hanhldph.com/",
         status: "Doing",
         description: "Đây là meowshop được viết từ React, mô tả này chỉ là demo nhớ sửa lại!!!"
     },

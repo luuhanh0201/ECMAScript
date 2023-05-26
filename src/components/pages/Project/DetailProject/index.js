@@ -11,23 +11,24 @@ const DetailProject = ({ id }) => {
 
   return `
     <div class="w-4/5 flex flex-col items-center justify-center m-auto pt-12">
-        <div class="w-full mb-12">
-            <p class="font-extrabold">
-                <a href="/project">Project</a> > <a class="text-red-600" href="#">${projectDetail.title}</a>
-            </p>
-        </div>
-        <div class="flex w-2/3 border-2 rounded-xl shadow-lg">
+    <div class="w-full mb-12">
+    <p class="font-extrabold">
+    <a href="/project">Project</a> > <a class="text-red-600" href="#">${projectDetail.title}</a>
+    </p>
+    </div>
+    <h1 class ="text-center font-semibold text-xl pb-6 uppercase text-slate-800">project information</h1>
+        <div class="flex w-5/6 border-2 rounded-xl shadow-lg">
             <div
                 style="background-image: url('${projectDetail.image}');"
                 class="w-3/6 h-auto rounded-2xl p-6 bg-no-repeat bg-cover bg-center bg-clip-content"
             ></div>
 
             <div class="w-3/6 text-justify p-3 h-auto">
-                <h1 class="pb-2"><span class="font-semibold">Title: </span> ${projectDetail.title} </h1>
-                <p class="text-slate-800 pb-2">
+                <h1 class="pb-2 hover:text-red-600  duration-300 cursor-pointer"><span class="font-semibold">Title: </span> ${projectDetail.title} </h1>
+                <p class="text-slate-800 pb-2 hover:text-red-600  duration-300">
                     <span class="font-semibold">Website: </span> <a href="#">${projectDetail.website}</a>
                 </p>
-                <p class="text-slate-800 pb-2">
+                <p class="text-slate-800 pb-2 hover:text-red-600  duration-300">
                     <span class="font-semibold">Github: </span> <a href="#">${projectDetail.github}</a>
                 </p>
                 <p class="text-slate-800 pb-2">

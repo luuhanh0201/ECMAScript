@@ -1,7 +1,7 @@
 
 const HomePage = () => {
   return `
-  <div class="w-full flex flex-col justify-center items-center mb-12">
+  <div class=" w-full flex flex-col justify-center items-center mb-12">
   <div style="height: 500px" class="w-8/12 flex items-center relative">
       <div style="height: 100px" class="w-3/5 flex items-stretch justify-around flex-col">
           <div>
