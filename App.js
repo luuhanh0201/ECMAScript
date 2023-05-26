@@ -7,7 +7,7 @@ import DetailProject from "~/components/pages/Project/DetailProject"
 
 const app = document.getElementById('app')
 
-
+    
 // Render content
 router.on('/', () => render(HomePage, app))
 router.on('/home', () => render(HomePage, app))

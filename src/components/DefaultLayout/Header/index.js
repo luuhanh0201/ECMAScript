@@ -2,7 +2,7 @@
 
 const Header = () => {
     return `
-    <header class="bg-white w-full flex justify-between shadow-sm py-1">
+    <header class="bg-white w-full flex justify-between shadow-sm py-1 z-50 overflow-hidden">
       <div class=" w-11/12 flex justify-between m-auto py-1 ">
         <div class="w-2/12" style="height: 75px;">
           <a href="/"><img style="height: 100%; width: 100px;" src="./src/assets/images/Logo.png" alt="12" /></a>
