@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Meow Shop",
+      "image": "./src/assets/images/meowshop_avatar.png",
+      "noImage": "",
+      "detailImage": [
+        "./src/assets/images/meowshop_detail1.jpg",
+        "./src/assets/images/meowshop_detail2.jpg"
+      ],
+      "technology": "ReactJS, Scss",
+      "github": "https://github.com/luuhanh0201/meowshop",
+      "website": "https://hanhldph.com/",
+      "status": "Doing",
+      "description": "Đây là meowshop được viết từ React, mô tả này chỉ là demo nhớ sửa lại!!!"
+    }
+    
+  ]
+}
