@@ -5,9 +5,10 @@ const DetailProject = ({ id }) => {
   const projectDetail = projects.find((project) => {
     return project.id === parseInt(id);
   });
+  
   const imageDetail = projectDetail.detailImage.map((image) => {
     console.log("Src img: " + image)
-   return `<img class="w-full mt-8" src="${image}" />`
+   return `<img class='w-full mt-8' src='${image}'/>`
   });
   console.log(imageDetail)
 

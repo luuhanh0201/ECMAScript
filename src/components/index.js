@@ -1,12 +1,11 @@
+import Header from "~/components/DefaultLayout/Header"
+import Footer from "~/components/DefaultLayout/Footer"
 
-const Component = (header,content,footer)=>{
+const Component = (content)=>{
     return `
-    <div>
-    ${header}
+    ${Header}
     ${content}
-    ${footer}
-
-    </div>
+    ${Footer}
     `
 }
 export default Component
