@@ -11,7 +11,7 @@ html {
     font-family: "roboto", sans-serif;
     --tw-bg-opacity: 1;
     background-color: rgb(248 250 252 / var(--tw-bg-opacity));
-    user-select:none;
+    /* user-select:none; */
 }
 .line-clamp-1 {
     display: -webkit-box;
@@ -101,6 +101,21 @@ html {
     }
    
 }
+@keyframes slide-in-right {
+  from {
+    opacity:0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity:1;
+
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.5s ease-out;
+}
 .textTopToBottom{
     animation: textTopToBottom 0.8s linear;
     
@@ -126,3 +141,17 @@ html {
 .animate-spin {
     animation: spin 10s linear infinite;
 }
+
+
+/* 
+.background-image__login {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url('https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-6/346798400_1987730858226050_4627111959096637772_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=1a56Xfa4W1kAX-zvxuB&_nc_ht=scontent.fhan14-2.fna&oh=00_AfBe4QmHqF-VGWD3nx7NxFmOwd5DPtK1cVm4HGxx75zo_g&oe=6482E74E');
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px); 
+
+} */
+

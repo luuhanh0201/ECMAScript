@@ -1,5 +1,5 @@
-
-export const projects = [
+const API_URL = "http://localhost:3000"
+const projects = [
     {
         id: 0,
         title: "Meow Shop",
@@ -61,3 +61,4 @@ export const projects = [
         description: "Đây là meowshop được viết từ React, mô tả này chỉ là demo nhớ sửa lại!!!"
     },
 ]
+export { API_URL, projects }
